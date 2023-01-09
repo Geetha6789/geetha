@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>table3</title>
+    <style type="text/css">
+      #gray {
+        background-color: gray;
+      }
+      #brown {
+        background-color: brown;
+      }
+      #pink {
+        background-color: pink;
+      }
+      #green {
+        background-color: green;
+      }
+      #blue {
+        background-color: blue;
+      }
+      .voilet {
+        background-color: violet;
+      }
+
+      th {
+        background-color: khaki;
+        color: brown;
+        /* height: 50%;
+        width: 80%; */
+      }
+    </style>
+  </head>
+  <body>
+    <table border="ipx" align="center" cellpadding="20px" cellspacing="3px">
+      <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th id="gray" rowspan="2" colspan="3" style="color: white" ;>A</th>
+        <th id="brown" rowspan="2" colspan="4" style="color: white" ;>B</th>
+      </tr>
+      <tr>
+        <th>2</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th id="pink" colspan="7" style="color: white" ;>C</th>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th id="green" rowspan="2" colspan="6" style="color: white" ;>D</th>
+        <th id="blue" style="color: white" ;>E</th>
+      </tr>
+      <tr>
+        <th>5</th>
+        <th class="voilet" style="color: white" ;>f</th>
+      </tr>
+
+      <!-- <tr>
+        <th rowspan="2" colspan="3">A</th>
+        <th rowspan="2" colspan="4">B</th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <th colspan="7">C</th>
+      </tr>
+      <tr>
+        <th rowspan="2" colspan="6">D</th>
+        <th colspan="1">E</th>
+      </tr>
+      <tr>
+        <th>f</th>
+      </tr> -->
+    </table>
+  </body>
+</html>
